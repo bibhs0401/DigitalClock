@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a062e;
+
+}
+
+.datetime{
+  color: #e1f1f7;
+  background: linear-gradient(333deg, rgba(190,174,238,1) 7%, rgba(98,100,219,1) 51%, rgba(78,126,182,1) 100%);
+  width: relative;
+  padding: 15px 10px;
+  border-radius: 25px;
+  transition: 0.5s;
+  font-family: 'Audiowide', cursive;
+}
+
+
+.date{
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time{
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.time span:not(:last-child){
+  position: relative;
+  margin: 0 6px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.time span:last-child{
+background: radial-gradient(circle, rgba(221,196,238,1) 0%, rgba(145,110,199,1) 46%, rgba(146,51,222,1) 100%);
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0 5px;
+  border-radius: 30px;
+}
